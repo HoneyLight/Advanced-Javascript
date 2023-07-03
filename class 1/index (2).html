@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript practice and logic to form validation</title>
+    <style>
+        body{
+            background-color: gainsboro;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 60%;
+            margin: auto;
+        }
+        input, select{
+            width: 70%;
+            margin: 0 auto;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+        }
+        span{
+            color: red;
+            font-size: 12px;
+        }
+        button{
+            padding: 4px 10px;
+            background-color: navy;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="form">
+        <div>
+            <label for="">First name</label>
+            <input type="text" name="fname" class="inputs" placeholder="John">
+            <span></span>
+        </div><br>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" name="lname" class="inputs" placeholder="Doe">
+            <span></span>
+        </div><br>
+        <div>
+            <label for="">Email</label>
+            <input type="text" name="email" class="inputs">
+            <span></span>
+        </div><br>
+        <div>
+            <label for="">Phone</label>
+            <input type="number" name="phone" class="inputs">
+            <span></span>
+        </div><br>
+        <div>
+            <label for="gender">Gender</label>
+            <select name="gender" class="inputs">
+                <option value="">Select</option>
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="pthers">others</option>
+            </select>
+            <span></span>
+        </div><br>
+        <div>
+            <label for="">Password</label>
+            <input type="password" name="password" class="inputs">
+            <span></span>
+        </div><br>
+    </form>
+    <button id="btn">Submit</button>
+
+    <div id="details"></div>
+
+</body>
+<script src="index.js"></script>
+</html>

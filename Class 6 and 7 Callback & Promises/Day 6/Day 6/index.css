@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+form{
+    background-color: #fff;
+    width: 40%;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+form input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+form button{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+table{
+    width: 90%;
+    padding: 20px 0;
+    background-color: #fff;
+    margin: auto;
+    text-align: center;
+}

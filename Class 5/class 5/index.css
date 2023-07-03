@@ -1,0 +1,15 @@
+.table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.table th, .table td{
+    padding: 13px;
+}
+.table thead {
+    font-weight: 500;
+}
+thead, td{
+    padding: 13px;
+}
